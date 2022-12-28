@@ -33,12 +33,19 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+include: ["_pages"]
+
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
+  # _posts
+  - scope:
+      path: ""
+      type: posts
     values:
-      layout: "default"
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
