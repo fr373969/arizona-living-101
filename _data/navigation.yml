@@ -1,0 +1,11 @@
+# main:
+#   - title: "Home Page"
+#     url: /
+#   - title: "Electric"
+#     url: /Electric/
+
+navigation:
+  - title: 水電網路
+    children:
+      - title: "電力公司"
+        url: /electric/
