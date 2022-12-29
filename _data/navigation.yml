@@ -7,5 +7,9 @@
 navigation:
   - title: 水電網路
     children:
-      - title: "電力公司"
+      - title: "電力"
         url: /electric/
+      - title: "水費"
+        url: /water/
+      - title: "網路"
+        url: /internet/
